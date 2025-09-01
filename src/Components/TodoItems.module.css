@@ -1,0 +1,32 @@
+.item {
+  background: #f3e8ff;
+  border: 1px solid #ddd6fe;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #4b5563;
+  box-shadow: 0 1px 2px 0 rgba(80, 0, 120, 0.03);
+  display: flex;
+  align-items: center;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  color: #a1a1aa;
+  font-size: 1.2rem;
+  margin-left: 0.7rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  transition: background 0.15s;
+}
+.deleteBtn:hover {
+  background: #fca5a5;
+  color: #fff;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #a1a1aa;
+  opacity: 0.7;
+}
